@@ -1,0 +1,5 @@
+---
+- name: Sdada
+  hosts: "{{ host | default( 'all' ) }}"
+  roles:
+   - add_acl
